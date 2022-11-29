@@ -42,7 +42,7 @@
 ## Create a new user on droplet
 
 1. Open a windows terminal on the host machine
-2. Type ssh root@<ipv4 address of your droplet>
-3. Type adduser <usernsme>
+2. Type ssh root@\<ipv4 address of your droplet>
+3. Type adduser \<usernsme>
 	
 
