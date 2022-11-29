@@ -39,4 +39,10 @@
 6. Again specify the tag to connect the droplets, load balancer and firewall. 
 7. Click on the button create firewall
 
+## Create a new user on droplet
+
+1. Open a windows terminal on the host machine
+2. Type ssh root@<ipv4 address of your droplet>
+3. Type adduser <usernsme>
+	
 
