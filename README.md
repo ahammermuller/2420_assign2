@@ -64,3 +64,12 @@ Type the following commands:
 > sudo apt install caddy
 
 Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-date.
+
+## Write a web app
+
+1. Login inside you wsl using windows terminal
+2. Create a directory (in my case I named it 2420-assign-two)
+3. Inside this directory create two other directories named html and src
+4. Inside the html directory create an index.html page
+5. Download nodejs from https://nodejs.org/en/
+6. 
