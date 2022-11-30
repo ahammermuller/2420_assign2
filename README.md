@@ -125,5 +125,12 @@ start()
 
 <img src=./images/caddy_file.jpg width="500">
 
+## Intall node and npm with Volta
+
+On both servers type the following commands:
+> 
+> curl https://get.volta.sh | bash
+>
+> source ~/.bashrc
 
 
