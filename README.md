@@ -98,4 +98,4 @@ const start = async () => {
 }
 start()
 </pre>
-8. 
+8. Move both your html and src directory to both of your servers.
