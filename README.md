@@ -71,13 +71,16 @@ Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-dat
 2. Create a directory (in my case I named it 2420-assign-two)
 3. Inside this directory create two other directories named html and src
 4. Inside the html directory create an index.html page
+
+
+
 5. Install nodejs by typing:
 > curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 >
 > sudo apt-get install -y nodejs
 6. Install fastify by typing:
 > npm i fastify
-7. Inside src directory dreate a file named index.js and pste inde the following content:
+7. Inside src directory create a file named index.js and paste inside the following content:
 <pre>
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true })
@@ -99,3 +102,4 @@ const start = async () => {
 start()
 </pre>
 8. Move both your html and src directory to both of your servers.
+9. 
