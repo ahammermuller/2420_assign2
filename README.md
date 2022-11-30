@@ -74,17 +74,22 @@ Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-dat
 
 <img src=./images/index_html.jpg width="500">
 
-5. Install nodejs by typing:
+5. Move index.html to /var/www
+
+## Install nodejs and fastify
+
+1. Install nodejs by typing:
 >
 > curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 >
 > sudo apt-get install -y nodejs
 >
-6. Install fastify by typing:
+
+2. Install fastify by typing:
 >
 > npm i fastify
 >
-7. Inside src directory create a file named index.js and paste inside the following content:
+3. Inside src directory create a file named index.js and paste inside the following content:
 <pre>
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true })
@@ -105,8 +110,8 @@ const start = async () => {
 }
 start()
 </pre>
-8. Test your server locally.
-9. Move both your html and src directory to both of your servers.
+4. Test your server locally.
+5. Move both your html and src directory to both of your servers.
 
 ## Caddy file and reverse proxy
 
@@ -115,6 +120,5 @@ start()
 
 <img src=./images/caddyfile.jpg width="500">
 
-3. Move index.html to /var/www
 
 
