@@ -71,7 +71,9 @@ Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-dat
 2. Create a directory (in my case I named it 2420-assign-two)
 3. Inside this directory create two other directories named html and src
 4. Inside the html directory create an index.html page
+
 <img src=./images/index_html.jpg width="500">
+
 5. Install nodejs by typing:
 >
 > curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
@@ -88,14 +90,14 @@ Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-dat
 const fastify = require('fastify')({ logger: true })
 
 // Declare a route
-fastify.get('/', async (request, reply) => {
-  return { hello: 'world' }
+fastify.get('/app', async (request, reply) => {
+  return { hello: 'Server x' }
 })
 
 // Run the server!
 const start = async () => {
   try {
-    await fastify.listen({ port: 3000 })
+    await fastify.listen({ port: 5050, host: '127.0.0.1' })
   } catch (err) {
     fastify.log.error(err)
     process.exit(1)
