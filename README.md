@@ -48,6 +48,11 @@
 
 <img src=./images/adduser.jpg width="500">
 
+4. Grant sudo privileges
+>
+> sudo usermod -aG sudo newuser
+>
+
 ## Install Caddy(Web Server) in both droplets
 
 To install Caddy login using ssh at your droplets.
