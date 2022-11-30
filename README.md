@@ -1,6 +1,6 @@
 # AlineHammermuller
 
-# How to set up a Load Balancer and a Firewall and apply some basic configuation trough Digital Ocean
+# How to set up a Load Balancer, a Firewall, a Web Server and apply some basic configuation trough Digital Ocean
  
 ## Digital Ocean droplet
 
@@ -46,5 +46,20 @@
 3. Type adduser \<usernsme>
 
 <img src=./images/adduser.jpg width="500">
-	
 
+## Install Caddy(Web Server) in both droplets
+
+To install Caddy login using ssh at your droplets.
+Type the following commands:
+
+> sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
+> 
+> curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+>
+> curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
+> 
+> sudo apt update
+> 
+> sudo apt install caddy
+
+Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-date.
