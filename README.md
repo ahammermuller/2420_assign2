@@ -125,6 +125,20 @@ start()
 
 <img src=./images/caddy_file.jpg width="500">
 
+## Cady service
+
+Create a caddy server
+
+<img src=./images/caddy_service.jpg width="500">
+
+Store your caddy.service at /etc/systemd/system/
+
+> sudo systemctl daemon-reload
+
+> sudo systemctl start caddy.service
+
+> sudo chown caddy:caddy /var/www
+
 ## Intall node and npm with Volta
 
 On both servers type the following commands:
