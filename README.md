@@ -65,15 +65,13 @@ Type the following commands:
 
 Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-date.
 
-## Write a web app
+## Create index files
 
 1. Login inside you wsl using windows terminal
 2. Create a directory (in my case I named it 2420-assign-two)
 3. Inside this directory create two other directories named html and src
 4. Inside the html directory create an index.html page
-
-
-
+<img src=./images/index_html.jpg width="500">
 5. Install nodejs by typing:
 > curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 >
@@ -101,5 +99,16 @@ const start = async () => {
 }
 start()
 </pre>
-8. Move both your html and src directory to both of your servers.
-9. 
+8. Test your server locally.
+9. Move both your html and src directory to both of your servers.
+
+## Caddy file and reverse proxy
+
+1. Edit the file /etc/caddy/Caddyfile using vim
+2. Use the IPV4 address of the load balancer and enable the reverse proxy.
+
+<img src=./images/caddyfile.jpg width="500">
+
+3. Move index.html to /var/www
+
+
