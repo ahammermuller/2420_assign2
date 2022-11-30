@@ -75,3 +75,27 @@ Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-dat
 > curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 >
 > sudo apt-get install -y nodejs
+6. Install fastify by typing:
+> npm i fastify
+7. Inside src directory dreate a file named index.js and pste inde the following content:
+<pre>
+// Require the framework and instantiate it
+const fastify = require('fastify')({ logger: true })
+
+// Declare a route
+fastify.get('/', async (request, reply) => {
+  return { hello: 'world' }
+})
+
+// Run the server!
+const start = async () => {
+  try {
+    await fastify.listen({ port: 3000 })
+  } catch (err) {
+    fastify.log.error(err)
+    process.exit(1)
+  }
+}
+start()
+</pre>
+8. 
