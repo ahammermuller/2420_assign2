@@ -17,6 +17,7 @@
 7. Paste de key and give it a meningful name.
 8. Create a new project if do not have one or a new droplet if you already have a project
 9. Select to use the primary key that you already created in your new droplet.
+
 **Remeber to give your project a tag. You will use this same tag on your droplet, load balancer and firewall
 
 ## Digital Ocean Load Balancer
