@@ -73,11 +73,15 @@ Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-dat
 4. Inside the html directory create an index.html page
 <img src=./images/index_html.jpg width="500">
 5. Install nodejs by typing:
+>
 > curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 >
 > sudo apt-get install -y nodejs
+>
 6. Install fastify by typing:
+>
 > npm i fastify
+>
 7. Inside src directory create a file named index.js and paste inside the following content:
 <pre>
 // Require the framework and instantiate it
