@@ -45,6 +45,6 @@
 2. Type ssh root@\<ipv4 address of your droplet>
 3. Type adduser \<usernsme>
 
-!(2420_assign2/images/adduser.jpg)
+![adduser](./images/adduser.jpg)
 	
 
