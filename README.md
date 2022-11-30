@@ -118,7 +118,7 @@ start()
 1. Edit the file /etc/caddy/Caddyfile using vim
 2. Use the IPV4 address of the load balancer and enable the reverse proxy.
 
-<img src=./images/caddyfile.jpg width="500">
+<img src=./images/caddy_file.jpg width="500">
 
 
 
