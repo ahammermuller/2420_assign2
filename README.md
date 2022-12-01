@@ -158,3 +158,9 @@ Inside /etc/systemd/system create a service file called hello_web
 > systemctl enable hello_web.service
 
 > systemctl start hello_web.service
+
+## Result
+
+<img src=./images/server1.jpg width="500">
+
+<img src=./images/server2.jpg width="500">
