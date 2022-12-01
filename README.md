@@ -148,3 +148,9 @@ On both servers type the following commands:
 > source ~/.bashrc
 >
 > volta install node
+
+# Node service
+
+Inside /lib/systemd/system create a service file called hello_web
+
+<img src=./images/hello_web.jpg width="500">
