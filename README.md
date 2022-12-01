@@ -161,7 +161,7 @@ Inside /etc/systemd/system create a service file called hello_web
 
 ## Result
 
-<img src=./images/server1.jpg width="500">
+![Server 1](images/server1.PNG)
 
 <img src=./images/server2.jpg width="500">
 
