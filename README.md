@@ -46,7 +46,7 @@
 2. Type ssh root@\<ipv4 address of your droplet>
 3. Type adduser \<usernsme>
 
-<img src=./images/adduser.jpg width="500">
+![Add_user](https://github.com/ahammermuller/2420_assign2/blob/main/images/add_user.jpg)
 
 4. Grant sudo privileges
 >
@@ -77,7 +77,7 @@ Installing Caddy using apt install, this way Caddy apt will kepp Caddy up-to-dat
 3. Inside this directory create two other directories named html and src
 4. Inside the html directory create an index.html page
 
-<img src=./images/index_html.jpg width="500">
+![Index_html](https://github.com/ahammermuller/2420_assign2/blob/main/images/index_html.jpg)
 
 5. Move index.html to /var/www
 
@@ -123,13 +123,14 @@ start()
 1. Edit the file /etc/caddy/Caddyfile using vim
 2. Use the IPV4 address of the load balancer and enable the reverse proxy.
 
-<img src=./images/caddy_file.jpg width="500">
+![Caddy_file](https://github.com/ahammermuller/2420_assign2/blob/main/images/caddy_file.jpg)
+
 
 ## Cady service
 
 Create a caddy server
 
-<img src=./images/caddyservice.jpg width="500">
+![Caddy_service](https://github.com/ahammermuller/2420_assign2/blob/main/images/caddyservice.jpg)
 
 Store your caddy.service at /etc/systemd/system/
 
@@ -153,7 +154,7 @@ On both servers type the following commands:
 
 Inside /etc/systemd/system create a service file called hello_web
 
-<img src=./images/hello_web.jpg width="500">
+![Server 1](https://github.com/ahammermuller/2420_assign2/blob/main/images/hello_web.jpg)
 
 > systemctl enable hello_web.service
 
@@ -163,8 +164,9 @@ Inside /etc/systemd/system create a service file called hello_web
 
 ![Server 1](https://github.com/ahammermuller/2420_assign2/blob/main/images/server1.jpg)
 
-<img src=./images/server2.jpg width="500">
+![Server 2](https://github.com/ahammermuller/2420_assign2/blob/main/images/server2.jpg)
 
-<img src=./images/server1_js.jpg width="500">
+![Server 1_js](https://github.com/ahammermuller/2420_assign2/blob/main/images/server1_js.jpg)
 
-<img src=./images/server2_js.jpg width="500">
+![Server 2_js](https://github.com/ahammermuller/2420_assign2/blob/main/images/server2_js.jpg)
+
