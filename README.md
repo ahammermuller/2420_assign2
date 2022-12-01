@@ -151,6 +151,10 @@ On both servers type the following commands:
 
 # Node service
 
-Inside /lib/systemd/system create a service file called hello_web
+Inside /etc/systemd/system create a service file called hello_web
 
 <img src=./images/hello_web.jpg width="500">
+
+> systemctl enable hello_web.service
+
+> systemctl start hello_web.service
