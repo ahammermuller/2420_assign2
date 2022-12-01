@@ -164,3 +164,7 @@ Inside /etc/systemd/system create a service file called hello_web
 <img src=./images/server1.jpg width="500">
 
 <img src=./images/server2.jpg width="500">
+
+<img src=./images/server1_js.jpg width="500">
+
+<img src=./images/server2_js.jpg width="500">
