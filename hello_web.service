@@ -5,8 +5,8 @@ Wants=network-online.target
 
 [Service]
 ExecStart=/home/user1/.volta/bin/node /home/user1/2420-assign-two/src/index.js
-User=dennis
-Group=dennis
+User=user1
+Group=user1
 Restart=always
 RestartSec=10
 TimeoutStopSec=90
