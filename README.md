@@ -149,7 +149,7 @@ On both servers type the following commands:
 >
 > volta install node
 
-# Node service
+## Node service
 
 Inside /etc/systemd/system create a service file called hello_web
 
