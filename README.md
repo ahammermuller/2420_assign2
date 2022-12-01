@@ -161,7 +161,7 @@ Inside /etc/systemd/system create a service file called hello_web
 
 ## Result
 
-![Server 1](images/server1.PNG)
+![Server 1](https://github.com/ahammermuller/2420_assign2/tree/main/images/server1.PNG)
 
 <img src=./images/server2.jpg width="500">
 
