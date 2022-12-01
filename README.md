@@ -129,7 +129,7 @@ start()
 
 Create a caddy server
 
-<img src=./images/caddy_service.jpg width="500">
+<img src=./images/caddyservice.jpg width="500">
 
 Store your caddy.service at /etc/systemd/system/
 
