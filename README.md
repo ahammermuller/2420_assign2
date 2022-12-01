@@ -46,7 +46,7 @@
 2. Type ssh root@\<ipv4 address of your droplet>
 3. Type adduser \<usernsme>
 
-![Add_user](https://github.com/ahammermuller/2420_assign2/blob/main/images/add_user.jpg)
+![Add_user](https://github.com/ahammermuller/2420_assign2/blob/main/images/adduser.jpg)
 
 4. Grant sudo privileges
 >
